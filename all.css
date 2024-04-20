@@ -1,27 +1,53 @@
-.min-vh-100 {
+
+/* .min-vh-100 {
     min-height: 100vh !important;
-}
+} */
 
 /* .position-relative {
     position: relative !important;
 } */
 
 .bg-cover {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #f80;
+
+    margin-left: -50px;
+
     background-size: cover;
     background-position: 25% center;
     background-repeat: no-repeat;
-    /*移除預設樣式*/
+    background-image:url(/images/DSC_1536.jpg)";
+    /* height:900px; */
+    /* 移除預設樣式
     -webkit-appearance: none;
     /* Safari 和 Chrome，常用於 iOS 移除內建樣式 */
-    -moz-appearance: none;
+    /* -moz-appearance: none; */
     /* FireFox */
-    appearance: none;
+    /* appearance: none; */
 }
 
-/* .bg-attachment-fixed {
+.bg-attachment-fixed {
     background-attachment: fixed;
 }
 
-.position-absolute {
+/* .position-absolute {
     position: absolute !important;
 } */
+
+/* 先設定要看到的圖像尺寸
+再用 overflow 屬性，隱藏超出的部分
+margin 移動 img 位置 */
+/* .box{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background: #f80;
+}
+.box img{
+    height: 500px;
+    margin-left: -195px;
+} */
+
+/* style="top: 0px; left: 0px;right: 0px;bottom: 0px;  */
